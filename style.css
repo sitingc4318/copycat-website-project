@@ -1,1 +1,132 @@
+body{
+  background-image: linear-gradient(120deg, #0078b9, #8B16B6);
+  height:100vh;
+  width:100%;
+  /*background-image: radial-gradient(circle at top left, #0078b9, #80379b);*/
+}
+
+/*outside box text*/
+.text{
+  padding-top:20px;
+  margin:30px;
+  text-align: center;  /*set text to the center*/
+  color: white; /*set text color to white*/
+  font-size: 80px;  /*set text size bigger*/
+  font-weight: bold;  /*set text to bold*/
+  font-family:'comfortaa', cursive;
+}
+
+.text h1{
+  text-align:center;
+  font-size: 10px;
+  font-family:'comfortaa', cursive;
+  padding-left: 280px;
+  opacity:.7;
+}
+
+/*big box function*/
+.big-box{
+  top:10px;
+  width:320px;
+  height:250px;
+  margin:10px auto;
+  background: gray;
+  position: relative;
+  opacity: .3;
+  border-radius: 5px;
+
+}
+
+ .big-box h2{
+padding-top:35px;
+font-family: arial;
+font-size: 25px;
+color: white;
+text-align:center;
+}
+
+.big-box h5{
+  width: 130px;
+  /*height:20px;*/
+  top: 100px;
+  background: gray;
+  padding-left: 60px;
+  padding-top:48px;
+  color: white;
+  font-size: 10px;
+}
+
+.big-box h5:hover{
+  text-decoration: underline;
+}
+
+.big-box h6{
+   width:140px;
+  height: 25px;
+  font-size: 20px;
+  margin:0px auto;
+  background: gray;
+  position: relative;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  left: 75px;
+  bottom: 33px;
+  font-size: 3px;
+}
+
+.big-box h6:hover{
+  text-decoration: underline;
+}
+
+.big-box h7{
+   width:100px;
+  height: 25px;
+  font-size: 20px;
+  margin:0px auto;
+  background: gray;
+  position: relative;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  left: 158px;
+  bottom: 63px;
+  font-size:5px;
+}
+
+
+/*small box function*/
+.small-box{
+  bottom: 175px;
+  width:90px;
+  height:40px;
+  font-size: 20px;
+  margin:0px auto;
+  background: gray;
+  position: relative;
+  opacity: .2;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.small-box:hover{
+  text-decoration: none;
+  background-color: gray;
+  opacity:0.4;
+}
+
+.small-box h3{
+  text-decoration: none;
+font-family: arial;
+font-size: 15px;
+color: white;
+text-align: center;
+padding-top: 10px;
+}
+
+
+
+
+
 

@@ -1,57 +1,110 @@
 body{
   background-image: linear-gradient(120deg, #0078b9, #8B16B6);
-  height:100vh;
-  width:100%;
+  height :100vh;
+  width: 100%;
   /*background-image: radial-gradient(circle at top left, #0078b9, #80379b);*/
 }
 
 /*outside box text*/
 .text{
-  padding-top:20px;
-  margin:30px;
+  padding-top: 20px;
+  margin: 30px;
   text-align: center;  /*set text to the center*/
   color: white; /*set text color to white*/
   font-size: 80px;  /*set text size bigger*/
   font-weight: bold;  /*set text to bold*/
-  font-family:'comfortaa', cursive;
+  font-family: 'comfortaa', cursive;
 }
 
 .text h1{
-  text-align:center;
+  text-align: center;
   font-size: 10px;
-  font-family:'comfortaa', cursive;
+  font-family: 'comfortaa', cursive;
   padding-left: 280px;
-  opacity:.7;
+  opacity: .7;
+}
+
+.text p3{
+  font-family: "arial";
+  width: 140px;
+  height: 25px;
+  font-size: 20px;
+  margin: 0px auto;
+  position: relative;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  left: 26px;
+  top: 240px;
+  font-size: 10px;
+}
+
+.text p3:hover{
+  text-decoration: underline;
+}
+
+.text p4{
+  font-family: "arial";
+  width: 140px;
+  height: 25px;
+  font-size: 20px;
+  margin: 0px auto;
+  position: relative;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  left: 7px;
+  top: 240px;
+  font-size: 5px;
+}
+
+.text p4:hover{
+  text-decoration: underline;
+}
+
+.text p5{
+  font-family: "arial";
+  width: 140px;
+  height: 25px;
+  font-size: 20px;
+  margin: 0px auto;
+  position: relative;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  right: 75px;
+  top: 240px;
+  font-size: 10px;
 }
 
 /*big box function*/
 .big-box{
-  top:10px;
-  width:320px;
-  height:250px;
-  margin:10px auto;
+  bottom: 90px;
+  width: 320px;
+  height: 250px;
+  margin: 10px auto;
   background: gray;
   position: relative;
   opacity: .3;
   border-radius: 5px;
-
 }
 
- .big-box h2{
-padding-top:35px;
-font-family: arial;
-font-size: 25px;
-color: white;
-text-align:center;
+.big-box h2{
+  padding-top: 35px;
+  font-family: "arial";
+  font-size: 25px;
+  color: white;
+  text-align: center;
 }
 
+/*first row*/
 .big-box h5{
+  font-family: "arial";
   width: 130px;
-  /*height:20px;*/
   top: 100px;
   background: gray;
-  padding-left: 60px;
-  padding-top:48px;
+  padding-left: 65px;
+  padding-top: 50px;
   color: white;
   font-size: 10px;
 }
@@ -61,17 +114,18 @@ text-align:center;
 }
 
 .big-box h6{
-   width:140px;
+  font-family: "arial";
+  width: 140px;
   height: 25px;
   font-size: 20px;
-  margin:0px auto;
+  margin: 0px auto;
   background: gray;
   position: relative;
   border-radius: 5px;
   text-decoration: none;
   color: white;
   left: 75px;
-  bottom: 33px;
+  bottom: 31px;
   font-size: 3px;
 }
 
@@ -80,28 +134,106 @@ text-align:center;
 }
 
 .big-box h7{
-   width:100px;
+  font-family: "arial";
+  width: 100px;
   height: 25px;
   font-size: 20px;
-  margin:0px auto;
+  margin: 0px auto;
   background: gray;
   position: relative;
   border-radius: 5px;
   text-decoration: none;
   color: white;
-  left: 158px;
+  left: 160px;
   bottom: 63px;
-  font-size:5px;
+  font-size: 10px;
 }
 
+/*second row*/
+.big-box h8{
+  font-family: "arial";
+  width: 140px;
+  height: 25px;
+  font-size: 20px;
+  margin: 0px auto;
+  background: gray;
+  position: relative;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  left: 55px;
+  bottom: 25px;
+  font-size: 10px;
+}
+
+.big-box h8:hover{
+  text-decoration: underline;
+}
+
+.big-box h9{
+  font-family: "arial";
+  width: 140px;
+  height: 25px;
+  font-size: 20px;
+  margin: 0px auto;
+  background: gray;
+  position: relative;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  left: 60px;
+  bottom: 25px;
+  font-size: 5px;
+}
+
+.big-box h9:hover{
+  text-decoration: underline;
+}
+
+.big-box p1{
+  font-family: "arial";
+  width: 100px;
+  height: 25px;
+  font-size: 20px;
+  margin:0 px auto;
+  background: gray;
+  position: relative;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  right: 75px;
+  bottom: 25px;
+  font-size: 10px;
+}
+
+/*third row*/
+.big-box h3{
+  font-family: "arial";
+  width: 130px;
+  height: 20px;
+  font-size: 20px;
+  margin: 0px auto;
+  background: gray;
+  position: relative;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  left: 18px;
+  bottom: 25px;
+  font-size: 2px;
+}
+
+.big-box h3:hover{
+  text-decoration: underline;
+}
 
 /*small box function*/
 .small-box{
-  bottom: 175px;
-  width:90px;
-  height:40px;
+  bottom: 280px;
+  width: 90px;
+  height: 40px;
   font-size: 20px;
-  margin:0px auto;
+  margin: 0px auto;
   background: gray;
   position: relative;
   opacity: .2;
@@ -113,16 +245,16 @@ text-align:center;
 .small-box:hover{
   text-decoration: none;
   background-color: gray;
-  opacity:0.4;
+  opacity: 0.6;
 }
 
-.small-box h3{
+.small-box p{
   text-decoration: none;
-font-family: arial;
-font-size: 15px;
-color: white;
-text-align: center;
-padding-top: 10px;
+  font-family: arial;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
 }
 
 

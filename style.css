@@ -12,14 +12,15 @@ body{
   color: white; /*set text color to white*/
   font-size: 80px;  /*set text size bigger*/
   font-weight: bold;  /*set text to bold*/
-  font-family: 'comfortaa', cursive;
+  font-family: "sans-serif";
+  
 }
 
 .text h1{
   text-align: center;
-  font-size: 10px;
+  font-size: 15px;
   font-family: 'comfortaa', cursive;
-  padding-left: 280px;
+  padding-left: 210px;
   opacity: .7;
 }
 
@@ -27,14 +28,13 @@ body{
   font-family: "arial";
   width: 140px;
   height: 25px;
-  font-size: 20px;
   margin: 0px auto;
   position: relative;
   border-radius: 5px;
   color: white;
-  left: 26px;
+  left: 20px;
   top: 240px;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .text p3:hover{
@@ -45,14 +45,13 @@ body{
   font-family: "arial";
   width: 140px;
   height: 25px;
-  font-size: 20px;
   margin: 0px auto;
   position: relative;
   border-radius: 5px;
   color: white;
-  left: 7px;
+  left: 3.5px;
   top: 240px;
-  font-size: 5px;
+  font-size: 13px;
 }
 
 .text p4:hover{
@@ -63,15 +62,14 @@ body{
   font-family: "arial";
   width: 140px;
   height: 25px;
-  font-size: 20px;
   margin: 0px auto;
   position: relative;
   border-radius: 5px;
   text-decoration: none;
   color: white;
-  right: 82px;
+  right: 87px;
   top: 240px;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 /*big box function*/
@@ -100,10 +98,10 @@ body{
   width: 130px;
   top: 100px;
   background: gray;
-  padding-left: 65px;
+  padding-left: 58px;
   padding-top: 50px;
   color: white;
-  font-size: 10px;
+  font-size: 12.5px;
 }
 
 .big-box h5:hover{
@@ -114,15 +112,14 @@ body{
   font-family: "arial";
   width: 140px;
   height: 25px;
-  font-size: 20px;
   margin: 0px auto;
   background: gray;
   position: relative;
   text-decoration: none;
   color: white;
   left: 75px;
-  bottom: 31px;
-  font-size: 3px;
+  bottom: 35px;
+  font-size: 12px;
 }
 
 .big-box h6:hover{
@@ -133,15 +130,14 @@ body{
   font-family: "arial";
   width: 100px;
   height: 25px;
-  font-size: 20px;
   margin: 0px auto;
   background: gray;
   position: relative;
   text-decoration: none;
   color: white;
   left: 160px;
-  bottom: 63px;
-  font-size: 10px;
+  bottom: 64px;
+  font-size: 12px;
 }
 
 /*second row*/
@@ -149,7 +145,6 @@ body{
   font-family: "arial";
   width: 140px;
   height: 25px;
-  font-size: 20px;
   margin: 0px auto;
   background: gray;
   position: relative;
@@ -157,7 +152,7 @@ body{
   color: white;
   left: 55px;
   bottom: 25px;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .big-box h8:hover{
@@ -168,7 +163,6 @@ body{
   font-family: "arial";
   width: 140px;
   height: 25px;
-  font-size: 20px;
   margin: 0px auto;
   background: gray;
   position: relative;
@@ -176,7 +170,7 @@ body{
   color: white;
   left: 60px;
   bottom: 25px;
-  font-size: 5px;
+  font-size: 12px;
 }
 
 .big-box h9:hover{
@@ -187,15 +181,14 @@ body{
   font-family: "arial";
   width: 100px;
   height: 25px;
-  font-size: 20px;
-  margin:0 px auto;
+  margin: 0px auto;
   background: gray;
   position: relative;
   text-decoration: none;
   color: white;
-  right: 75px;
+  right: 73px;
   bottom: 25px;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 /*third row*/
@@ -203,16 +196,15 @@ body{
   font-family: "arial";
   width: 130px;
   height: 20px;
-  font-size: 20px;
   margin: 0px auto;
   background: gray;
   position: relative;
   border-radius: 5px;
   text-decoration: none;
   color: white;
-  left: 18px;
+  left: 10px;
   bottom: 25px;
-  font-size: 2px;
+  font-size: 12px;
 }
 
 .big-box h3:hover{
@@ -224,7 +216,6 @@ body{
   bottom: 280px;
   width: 90px;
   height: 40px;
-  font-size: 20px;
   margin: 0px auto;
   background: gray;
   position: relative;
@@ -232,6 +223,7 @@ body{
   border-radius: 5px;
   text-decoration: none;
   color: white;
+  font-size: 20px;
 }
 
 .small-box:hover{
